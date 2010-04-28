@@ -1,0 +1,14 @@
+stocks:
+  id: 1
+  symbol: STKS
+  name: Stocks
+
+gold:
+  id: 2
+  symbol: GOLD
+  name: Gold
+
+t-bills:
+  id: 3
+  symbol: TBLL
+  name: T-Bills  

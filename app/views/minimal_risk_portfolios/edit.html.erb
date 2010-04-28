@@ -1,0 +1,12 @@
+<h1>Editing minimal_risk_portfolio</h1>
+
+<% form_for(@minimal_risk_portfolio) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @minimal_risk_portfolio %> |
+<%= link_to 'Back', minimal_risk_portfolios_path %>
